@@ -14,3 +14,9 @@ You've been presented with a small project which you know nothing about. Please 
 Please fork this repository to your own Github account and email a link to your updated repository to us.
 
 Alternatively, if this is not possible for some reason, you can zip your finished test and send it to us by email.
+
+### Next Steps
+
+Please be prepared to talk through the changes you have made and explain your thinking in detail during the interview.
+
+This is intended as a short initial skills test, we may ask you to develop additional features on top of this foundation as the interview process progresses.
