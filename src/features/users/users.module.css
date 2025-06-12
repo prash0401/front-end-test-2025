@@ -1,0 +1,17 @@
+.userCard {
+  display: inline-block;
+  margin-right: 30px;
+  width: 300px;
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  white-space: wrap;
+}
+
+.userCardHeader {
+  font-weight: bold;
+}
+
+.inputContainer {
+  margin-bottom: 30px;
+}
