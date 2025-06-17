@@ -4,6 +4,7 @@ type User = {
   id: string;
   name: string;
   email: string;
+  username: string;
 };
 
 export const usersApiSlice = createApi({
@@ -14,7 +15,7 @@ export const usersApiSlice = createApi({
   tagTypes: ["Users"],
   endpoints: (build) => ({
     getUsers: build.query<User[], number>({
-      query: (limit = 10) => `?limit=${limit.toString()}`,
+      query: (limit) => `?limit=${limit.toString()}`,
       providesTags: (_result, _error, id) => [{ type: "Users", id }],
     }),
   }),

@@ -1,15 +1,19 @@
+.usersContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
 .userCard {
-  display: inline-block;
-  margin-right: 30px;
-  width: 300px;
+  width: 100%;
   background: #f0f0f0;
   padding: 20px;
   border-radius: 5px;
-  white-space: wrap;
+  word-break: break-word;
 }
 
 .userCardHeader {
   font-weight: bold;
+  /* margin-bottom: 10px; */
 }
 
 .inputContainer {
